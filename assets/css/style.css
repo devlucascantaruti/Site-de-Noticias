@@ -1,0 +1,103 @@
+body{
+    font-family: 'Open Sans','Arial', Helvetica;
+    margin: 0;
+    padding: 0;
+    color: #555;
+}
+
+.top-bar{
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px solid #fd8a24;
+}
+
+small{
+    padding-left: 500px;
+    max-width: 1000px;
+}
+
+h1, h2{
+    color: #111;
+}
+
+.container{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+}
+
+.headline{
+    font-size: 56px;
+    padding-left: 500px;
+    max-width: 1000px;
+    line-height: 64px; /* calculo de line = tamanho da fonte + 8px */   
+}
+
+.subtitle{
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 500px;
+    max-width: 1000px;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 0.8em;
+    padding-left: 500px;
+    max-width: 1000px;
+}
+
+.social-icons{
+    margin-top: 10px;
+    padding-left: 500px;
+    max-width: 1000px;
+}
+
+.social-icon{
+    width: 20px;
+    padding: 10px 10px 10px 0;
+}
+
+a{
+    text-decoration: none; /* tirar o sublinhado de link */
+}
+
+.content{
+    max-width: 648px;
+    margin: auto;
+}
+
+p{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+a{
+    text-decoration: none;
+    color: #fd8a24;
+    font-weight: bold;
+}
+
+.cta{
+    font-size: 20px;
+    margin: 30px 0; /* ordem de margin: top, bottom, right and left */
+}
+
+figure{
+    padding: 0;
+    margin: 40px 0;
+    font-size: 12px;
+}
+
+figure>img{
+    width: 100%;
+}
+
+.footer{
+    background-color: #333;
+    height: 100px;
+}
